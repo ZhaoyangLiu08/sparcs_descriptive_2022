@@ -131,7 +131,7 @@ Summary Report
 """
 
 
-## 
+## extra
 ethnicity_stats = df.groupby('ethnicity')[['total_charges', 'length_of_stay']].mean()
 race_stats = df.groupby('race')[['total_charges', 'length_of_stay']].mean()
 
